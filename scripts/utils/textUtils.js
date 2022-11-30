@@ -24,7 +24,7 @@ export function spcialAbilitiesLink(specAbName) {
     .trim();
   try {
     return game.packs
-      .get('swade-core-rules.swade-specialabilities')
+      .get('sw5e-core-rules.sw5e-specialabilities')
       .contents.filter(x => x.name.includes(cleanedName))[0].link;
   } catch (error) {
     return '';

@@ -1,7 +1,7 @@
 {
-  "name": "swade-npc-importer",
+  "name": "sw5e-npc-importer",
   "version": "0.2.0",
-  "description": "Import stat blocks for SWADE",
+  "description": "Import stat blocks for SW5E",
   "main": "index.js",
   "scripts": {
     "prepare": "husky install",
@@ -24,10 +24,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/arnonram/swade-npc-importer.git"
+    "url": "git+https://github.com/arnonram/sw5e-npc-importer.git"
   },
   "bugs": {
-    "url": "https://github.com/arnonram/swade-npc-importer/issues"
+    "url": "https://github.com/arnonram/sw5e-npc-importer/issues"
   },
-  "homepage": "https://github.com/arnonram/swade-npc-importer#readme"
+  "homepage": "https://github.com/arnonram/sw5e-npc-importer#readme"
 }

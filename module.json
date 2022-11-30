@@ -1,7 +1,7 @@
 {
-  "name": "swade-npc-importer",
-  "title": "SWADE Stat Block Importer",
-  "description": "Import stat blocks for SWADE (formerly SWADE NPC Importer)",
+  "name": "sw5e-npc-importer",
+  "title": "SW5E Stat Block Importer",
+  "description": "Import stat blocks for SW5E (formerly SW5E NPC Importer)",
   "authors": [{ "name": "Arnon Ram" }],
   "version": "0.2.0",
   "compatibility": {
@@ -12,18 +12,18 @@
   "relationships": {
     "systems": [
       {
-        "id": "swade",
+        "id": "sw5e",
         "type": "system",
         "compatibility": {}
       }
     ]
   },
-  "esmodules": ["scripts/swadeNpcImporter.js"],
-  "url": "https://github.com/arnonram/swade-npc-importer",
-  "manifest": "https://github.com/arnonram/swade-npc-importer/releases/latest/download/module.json",
-  "download": "https://github.com/arnonram/swade-npc-importer/releases/download/v0.2.0/module.zip",
-  "bugs": "https://github.com/arnonram/swade-npc-importer/issues",
-  "readme": "https://github.com/arnonram/swade-npc-importer/tree/v0.2.0#swade-npc-importer",
+  "esmodules": ["scripts/sw5eNpcImporter.js"],
+  "url": "https://github.com/arnonram/sw5e-npc-importer",
+  "manifest": "https://github.com/arnonram/sw5e-npc-importer/releases/latest/download/module.json",
+  "download": "https://github.com/arnonram/sw5e-npc-importer/releases/download/v0.2.0/module.zip",
+  "bugs": "https://github.com/arnonram/sw5e-npc-importer/issues",
+  "readme": "https://github.com/arnonram/sw5e-npc-importer/tree/v0.2.0#sw5e-npc-importer",
   "languages": [
     {
       "lang": "en",
@@ -48,11 +48,11 @@
   ],
   "packs": [
     {
-      "name": "swade-npc-importer-macros",
-      "label": "SWADE Stat Block Importer Macros",
-      "system": "swade",
+      "name": "sw5e-npc-importer-macros",
+      "label": "SW5E Stat Block Importer Macros",
+      "system": "sw5e",
       "path": "packs/macros-importer.db",
-      "module": "swade-npc-importer",
+      "module": "sw5e-npc-importer",
       "type": "Macro",
       "private": true
     }

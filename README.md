@@ -1,6 +1,6 @@
-# SWADE Stat Block Importer
+# SW5E Stat Block Importer
 
-(formerly **_SWADE NPC Importer_**)
+(formerly **_SW5E NPC Importer_**)
 
 A Savage Worlds Adventure Edition stat block importer for [Foundry VTT](https://foundryvtt.com)
 
@@ -19,7 +19,7 @@ If you like what you see and find it uself, you can buy me a beer
    To solve this either:
 
    - Set your hosted Foundry to work with HTTPS, or
-   - Set the `Insecure origins treated as secure` flag in your browser (or equivalent) appropriatly ([see here for an explanation](https://github.com/arnonram/swade-npc-importer/issues/42#issuecomment-773385058))
+   - Set the `Insecure origins treated as secure` flag in your browser (or equivalent) appropriatly ([see here for an explanation](https://github.com/arnonram/sw5e-npc-importer/issues/42#issuecomment-773385058))
 
 2. **_Firefox_** does not support the `clipboard.readText()` API, and I found no way around this.
 
@@ -29,7 +29,7 @@ If you like what you see and find it uself, you can buy me a beer
 
 ## Just a heads up about statsblocks
 
-The **_SWADE Stat Block Importer_** works with the official statblock as seen in any Pinnacle products (SWADE Core, Deadlands, etc..) and defined in the [Pinnacle Style Guide](https://peginc.com/store/pinnacle-style-guide-pdf/)
+The **_SW5E Stat Block Importer_** works with the official statblock as seen in any Pinnacle products (SW5E Core, Deadlands, etc..) and defined in the [Pinnacle Style Guide](https://peginc.com/store/pinnacle-style-guide-pdf/)
 
 The Importer basically searches for patterns in the text, so that means paying attention to commas, colons, etc...
 
@@ -71,7 +71,7 @@ Some _Prototype Token_ options may be set by default
 ## How it does it and what's supported
 
 1. The statblock is prased by searching for all supported attributes/traits/items/etc..
-   - Any _Additional Stats (Actors)_ which were added through the SWADE System Settings are: searched for, added, and enabled
+   - Any _Additional Stats (Actors)_ which were added through the SW5E System Settings are: searched for, added, and enabled
    - Traits/Item means: skills, Edges, Hindrances, Special Abilities, Gear, Powers, etc..
 2. Every trait/item is searched for throughout all Item Compendiums in the selected Package (See [NPC Importer Settings](#some-configurations))
 3. If the triat/item is found in a Compendium then it is copied and updated to the Actor; If not found, then a new one will be created for the Actor only (no new compendium entry is created)
@@ -80,7 +80,7 @@ Some _Prototype Token_ options may be set by default
 
 - **Attributes**
 - **Skills**
-  - Core Skills are set according to the SWADE System Settings -> Setting Configurator
+  - Core Skills are set according to the SW5E System Settings -> Setting Configurator
 - **Hindrances**
 - **Edges**
   - Initiative Edges are checked in the _tweaks_ sections of the Actor
@@ -116,9 +116,9 @@ Some _Prototype Token_ options may be set by default
   - Lists all others as Special Abilities Items
   - Size
     - Size influences the tokens' size (bigger than medium) and scale (for smaller than medium)
-    - Add additional wounds as per the Size Table (SWADE Core)
+    - Add additional wounds as per the Size Table (SW5E Core)
   - Ignore wounds & Unshake bonuses for: construct, undead, elemental, combat reflexes
-  - List them all in the actors' description with links to Compendium rules (if using the core-swade Compendium pack)
+  - List them all in the actors' description with links to Compendium rules (if using the core-sw5e Compendium pack)
   - See [NPC Importer Settings](#some-configurations) for further manipulation of the statblock.
 
     - This options allows users who have set Special Abilities as Eges in their World to link them, as well as

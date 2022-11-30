@@ -96,7 +96,7 @@
   "npcImporter.settings.DefaultActorType": "Set the default Actor Type",
   "npcImporter.settings.DefaultIsWildcard": "Set the default for Wildcard",
   "npcImporter.settings.AdditionalTraits": "Additional Traits",
-  "npcImporter.settings.AdditionalTraitsHint": "A comma seperated list of custom stats to use, each entry should be followed by a colon (eg: 'Sanity:, Strain:')\nThe SWADE System actor additional stats are added by default",
+  "npcImporter.settings.AdditionalTraitsHint": "A comma seperated list of custom stats to use, each entry should be followed by a colon (eg: 'Sanity:, Strain:')\nThe SW5E System actor additional stats are added by default",
   "npcImporter.settings.BulletPointIcons": "Bullet point icons",
   "npcImporter.settings.BulletPointIconsHint": "Paste here the bullet-point icon(s) used by the statblock, seperated by a pipe '|'.\n(There is currently a know issue with adding *)",
   "npcImporter.settings.parseLanguage": "Parsing language",

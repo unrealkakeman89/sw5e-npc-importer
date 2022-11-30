@@ -22,7 +22,7 @@ export async function skillBuilder(skillsDict) {
           ...(item ?? ''),
           type: 'skill',
           name: capitalizeEveryWord(skillName),
-          img: item?.img ?? 'systems/swade/assets/icons/skill.svg',
+          img: item?.img ?? 'systems/sw5e/assets/icons/skill.svg',
           system: {
             ...(item?.system ?? ''),
             description: item?.system?.description ?? '',
@@ -57,7 +57,7 @@ export async function edgeBuilder(edges) {
           ...(item ?? ''),
           type: 'edge',
           name: capitalizeEveryWord(edgeName),
-          img: item?.img ?? 'systems/swade/assets/icons/edge.svg',
+          img: item?.img ?? 'systems/sw5e/assets/icons/edge.svg',
           system: {
             ...(item?.system ?? ''),
             description: item?.system?.description ?? '',
@@ -108,7 +108,7 @@ export async function hindranceBuilder(hindrances) {
           ...(item ?? ''),
           type: 'hindrance',
           name: capitalizeEveryWord(hindranceName),
-          img: item?.img ?? 'systems/swade/assets/icons/hindrance.svg',
+          img: item?.img ?? 'systems/sw5e/assets/icons/hindrance.svg',
           system: {
             ...(item?.system ?? ''),
             description: item?.system?.description ?? '',
@@ -140,7 +140,7 @@ export async function abilityBuilder(abilityName, abilityDescription) {
       ...(item ?? ''),
       type: 'ability',
       name: capitalizeEveryWord(abilityName),
-      img: item?.img ?? 'systems/swade/assets/icons/ability.svg',
+      img: item?.img ?? 'systems/sw5e/assets/icons/ability.svg',
       system: {
         ...(item?.system ?? ''),
         description: generateDescription(abilityDescription, item, true),
@@ -164,7 +164,7 @@ export async function itemBuilderFromSpecAbs(name, itemDescription, type) {
     ...(itemData ?? ''),
     type: type,
     name: itemData?.name ?? capitalizeEveryWord(name.trim()),
-    img: itemData?.img ?? `systems/swade/assets/icons/${type}.svg`,
+    img: itemData?.img ?? `systems/sw5e/assets/icons/${type}.svg`,
     system: {
       ...bilityBuilder(itemData?.system ?? ''),
     },
@@ -190,7 +190,7 @@ export async function powerBuilder(powers) {
           ...(item ?? ''),
           type: 'power',
           name: capitalizeEveryWord(powerName),
-          img: item?.img ?? 'systems/swade/assets/icons/power.svg',
+          img: item?.img ?? 'systems/sw5e/assets/icons/power.svg',
           system: item?.system ?? {},
           effects: item?.effects?.toJSON() ?? [],
           flags: item?.flags ?? {},
@@ -235,7 +235,7 @@ export async function weaponBuilder({
       ...(item ?? ''),
       type: 'weapon',
       name: item?.name ?? capitalizeEveryWord(weaponName),
-      img: item?.img ?? 'systems/swade/assets/icons/weapon.svg',
+      img: item?.img ?? 'systems/sw5e/assets/icons/weapon.svg',
       system: {
         ...(item?.system ?? ''),
         description: generateDescription(weaponDescription, item),
@@ -269,7 +269,7 @@ export async function shieldBuilder(
       ...(item ?? ''),
       type: 'shield',
       name: item?.name ?? capitalizeEveryWord(shieldName),
-      img: item?.img ?? 'systems/swade/assets/icons/shield.svg',
+      img: item?.img ?? 'systems/sw5e/assets/icons/shield.svg',
       system: {
         ...(item?.system ?? ''),
         description: generateDescription(description, item),
@@ -296,7 +296,7 @@ export async function armorBuilder(armorName, armorBonus, armorDescription) {
       ...(item ?? ''),
       type: 'armor',
       name: item?.name ?? capitalizeEveryWord(armorName),
-      img: item?.img ?? 'systems/swade/assets/icons/armor.svg',
+      img: item?.img ?? 'systems/sw5e/assets/icons/armor.svg',
       system: {
         ...(item?.system ?? ''),
         description: generateDescription(armorDescription, item),
@@ -321,7 +321,7 @@ export async function gearBuilder(gearName, description) {
       ...(item ?? ''),
       type: 'gear',
       name: item?.name ?? capitalizeEveryWord(gearName),
-      img: item?.img ?? 'systems/swade/assets/icons/gear.svg',
+      img: item?.img ?? 'systems/sw5e/assets/icons/gear.svg',
       system: {
         ...(item?.system ?? ''),
         description: generateDescription(description, item),

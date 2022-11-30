@@ -13,7 +13,7 @@ export default class TokenSettings extends FormApplication {
     return mergeObject(super.defaultOptions, {
       id: `${thisModule}.tokenSettings`,
       title: game.i18n.localize('npcImporter.settings.TokenSettings'),
-      template: 'modules/swade-npc-importer/templates/TokenSettings.html',
+      template: 'modules/sw5e-npc-importer/templates/TokenSettings.html',
       width: '400',
       closeOnSubmit: true,
     });

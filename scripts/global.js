@@ -1,8 +1,8 @@
 // this module... obviously
-export const thisModule = 'swade-npc-importer';
+export const thisModule = 'sw5e-npc-importer';
 
 // module defaults and registered settings
-export const defaultPackage = 'swade-compendium';
+export const defaultPackage = 'sw5e-compendium';
 export const settingPackageToUse = 'packageToUse';
 export const settingAdditionalTraits = 'additionalStats';
 export const settingDefaultDisposition = 'defaultDisposition';
@@ -25,7 +25,7 @@ export var allPacks = [];
 
 // global logger
 export const log = function (msg) {
-  console.log(`SWADE Stat Block Importer | ${msg}`);
+  console.log(`SW5E Stat Block Importer | ${msg}`);
 };
 
 // regex

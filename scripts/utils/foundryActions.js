@@ -102,7 +102,7 @@ export function getAllPackageNames() {
 }
 
 export function getSpecificAdditionalStat(additionalStatName) {
-  let additionalStats = game.settings.get('swade', 'settingFields').actor;
+  let additionalStats = game.settings.get('sw5e', 'settingFields').actor;
   for (const stat in additionalStats) {
     if (
       additionalStats[stat].label.toLowerCase() ==
@@ -126,12 +126,12 @@ export function getActorAddtionalStatsArray() {
 }
 
 export function getActorAddtionalStats() {
-  return game.settings.get('swade', 'settingFields').actor;
+  return game.settings.get('sw5e', 'settingFields').actor;
 }
 
 export function getSystemCoreSkills() {
   return game.settings
-    .get('swade', 'coreSkills')
+    .get('sw5e', 'coreSkills')
     .toLowerCase()
     .split(',')
     .map(Function.prototype.call, String.prototype.trim);
